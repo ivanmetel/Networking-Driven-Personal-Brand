@@ -27,6 +27,7 @@ fpf_principles:
 
 | Документ | Описание |
 |----------|----------|
+| [document-families.md](document-families.md) | **Модель семейств документов (F0-F9)** |
 | [principles.md](principles.md) | Принципы организации хранилища |
 | [glossary.md](glossary.md) | Глоссарий терминов |
 | [taxonomy.md](taxonomy.md) | Классификация и теги |
