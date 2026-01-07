@@ -1,6 +1,6 @@
-# SRD Template
+# SRT Template
 
-**Шаблон хранилища знаний по методу SRD** (Systems-Roles-Dimensions) — организация проекта через таблицу 3×3 систем и ролей с интеграцией First Principles Framework (FPF).
+**Шаблон хранилища знаний по методу SRT** (Systems-Roles-Table) — организация проекта через таблицу 3×3 систем и ролей с интеграцией First Principles Framework (FPF).
 
 ## Для кого этот шаблон
 
@@ -9,9 +9,9 @@
 - **Разработчики** — документация архитектуры и процессов
 - **Исследователи** — управление базой знаний
 
-## Что такое SRD-метод
+## Что такое SRT-метод
 
-SRD (Systems-Roles-Dimensions) — это способ организации знаний через **таблицу 3×3**, которая определяет **9 семейств документов** + **1 метасемейство** (управление хранилищем).
+SRT (Systems-Roles-Table) — это способ организации знаний через **таблицу 3×3**, которая определяет **9 семейств документов** + **1 метасемейство** (управление хранилищем).
 
 ### Таблица 3×3: 9 семейств документов
 
@@ -138,7 +138,7 @@ curl -sL "https://raw.githubusercontent.com/ailev/FPF/main/FPF-Spec.md" \
 После заполнения `PROJECT_DESCRIPTION.md` запустите экспертизу с Claude Code:
 
 ```
-Прочитай PROJECT_DESCRIPTION.md и проведи экспертизу на основе FPF и SRD:
+Прочитай PROJECT_DESCRIPTION.md и проведи экспертизу на основе FPF и SRT:
 
 1. Проверь чёткость определения целевой системы (паттерны A.1, A.7)
 2. Проверь полноту описания надсистемы (паттерн A.1.1)
@@ -224,7 +224,7 @@ content/
 Настрой автопроверки хранилища:
 1. Проверь все документы по ТЗ из 0.5.ValidationSpecs/
 2. Сгенерируй первый отчёт в 0.4.AutoReports/
-3. Покажи текущее покрытие таблицы SRD (9 семейств)
+3. Покажи текущее покрытие таблицы SRT (9 семейств)
 ```
 
 ---
@@ -267,7 +267,7 @@ srd-template/
 │   ├── FPF-Spec.md              # Полная спецификация
 │   └── FPF-Readme.md            # Обзор FPF
 │
-└── content/                     # Контент по SRD (10 семейств)
+└── content/                     # Контент по SRT (10 семейств)
     ├── 0.Management/            # F0: Метасемейство
     │   ├── 0.1.Meaning/         # Логика и принципы
     │   ├── 0.2.Architecture/    # Структура
@@ -286,7 +286,7 @@ srd-template/
 
 # Ссылки
 
-- **Введение в системное мышление:** [docs.system-school.ru](https://docs.system-school.ru/ru/personal/systems-thinking-introduction/preface) — обязательное чтение для понимания SRD
+- **Введение в системное мышление:** [docs.system-school.ru](https://docs.system-school.ru/ru/personal/systems-thinking-introduction/preface) — обязательное чтение для понимания SRT
 - **FPF:** [github.com/ailev/FPF](https://github.com/ailev/FPF) — First Principles Framework
 - **Ecosystem Development:** [github.com/aisystant/ecosystem-development](https://github.com/aisystant/ecosystem-development) — пример реального хранилища
 - [CLAUDE.md](CLAUDE.md) — инструкции для работы с Claude Code

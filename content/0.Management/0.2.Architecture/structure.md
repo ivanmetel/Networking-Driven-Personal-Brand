@@ -14,7 +14,7 @@ related:
   - ../0.1.Meaning/principles.md
 fpf_principles:
   - systemic-thinking
-  - srd-structure
+  - srt-structure
 fpf_patterns:
   - A.1      # Holonic Foundation
   - A.1.1    # Bounded Context
@@ -65,7 +65,7 @@ srd-template/
 │   ├── FPF-Spec.md              # Полная спецификация FPF
 │   └── FPF-Readme.md            # Обзор FPF
 │
-└── content/                     # Контент по методу SRD
+└── content/                     # Контент по методу SRT
     ├── 0.Management/            # Метасистема
     ├── 1.Supersystem/           # Надсистема
     ├── 2.TargetSystem/          # Целевая система
