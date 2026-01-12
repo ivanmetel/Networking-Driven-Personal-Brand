@@ -1,8 +1,8 @@
 ---
 type: doc
 status: active
-created: 2026-01-07
-updated: 2026-01-07
+created: 2026-01-07, 10:00
+updated: 2026-01-12, 13:30
 system: "Management"
 role: "Инженер"
 layer: architecture
@@ -61,8 +61,8 @@ fpf_patterns:
 ---
 type: doc                    # doc, spec, process, report, template
 status: active               # stub, draft, active, archived
-created: 2026-01-07          # Дата создания ISO 8601
-updated: 2026-01-07          # Дата обновления ISO 8601
+created: 2026-01-07, 10:00          # Дата создания (YYYY-MM-DD, hh:mm)
+updated: 2026-01-07, 12:30          # Дата обновления (YYYY-MM-DD, hh:mm)
 system: "Management"         # Management, Suprasystem, System-of-Interest, Constructor
 role: "Предприниматель"      # Предприниматель, Инженер, Менеджер
 ---
@@ -95,8 +95,8 @@ tags:
 ---
 type: spec
 status: active
-created: 2026-01-07
-updated: 2026-01-07
+created: 2026-01-07, 09:00
+updated: 2026-01-07, 15:00
 system: "System-of-Interest"
 role: "Инженер"
 layer: architecture
@@ -215,8 +215,8 @@ code block
 ---
 type: doc
 status: draft
-created: YYYY-MM-DD
-updated: YYYY-MM-DD
+created: YYYY-MM-DD, hh:mm
+updated: YYYY-MM-DD, hh:mm
 system: "SystemName"
 role: "Предприниматель/Инженер/Менеджер"
 related: []

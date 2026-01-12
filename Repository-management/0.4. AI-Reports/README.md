@@ -163,8 +163,8 @@ ELSE:
 ---
 type: report
 status: active
-created: YYYY-MM-DD
-updated: YYYY-MM-DD  # optional, if modified
+created: YYYY-MM-DD, hh:mm
+updated: YYYY-MM-DD, hh:mm  # when modified (required for AI agents)
 system: "Management"
 role: "Analyst"  # or: "Manager", "Validator", "Auditor"
 layer: operations
@@ -1025,10 +1025,10 @@ Audit documents for FPF principle and pattern compliance
 ## 📎 Related Documents
 
 - [Management Section](../README.md)
-- [Frontmatter Spec](../0.2. Repository-Processes/frontmatter-spec.md)
-- [Document Families](../0.1. Knowledge-Base-Logic/document-families.md)
-- [System Identification](../0.1. Knowledge-Base-Logic/system-identification.md)
-- [Glossary](../0.1. Knowledge-Base-Logic/glossary.md)
+- [Frontmatter Spec](../0.2. Domain/frontmatter-spec.md)
+- [Document Families](../0.1. Core/document-families.md)
+- [System Identification](../0.1. Core/system-identification.md)
+- [Glossary](../0.1. Core/glossary.md)
 - [FPF Spec](../../.fpf/FPF-Spec.md)
 
 ---

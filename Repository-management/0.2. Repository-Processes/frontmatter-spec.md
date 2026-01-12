@@ -1,8 +1,8 @@
 ---
 type: spec
 status: active
-created: 2026-01-07
-updated: 2026-01-07
+created: 2026-01-07, 10:00
+updated: 2026-01-12, 13:30
 system: "Management"
 role: "ValidationSpecs"
 layer: methodology
@@ -67,8 +67,8 @@ fpf_patterns:
 ### Правило 6: Поля дат
 
 - **Условие:** Файл имеет frontmatter
-- **Ожидание:** Поля `created` и `updated` присутствуют в формате `YYYY-MM-DD`
-- **Ошибка:** `DATE_INVALID: Поля created/updated отсутствуют или имеют неверный формат`
+- **Ожидание:** Поля `created` и `updated` присутствуют в формате `YYYY-MM-DD, hh:mm`
+- **Ошибка:** `DATE_INVALID: Поля created/updated отсутствуют или имеют неверный формат (ожидается YYYY-MM-DD, hh:mm)`
 - **Критичность:** medium
 
 ### Правило 7: Соответствие пути и system

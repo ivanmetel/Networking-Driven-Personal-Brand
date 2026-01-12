@@ -1,8 +1,8 @@
 ---
 type: process
 status: active
-created: 2026-01-07
-updated: 2026-01-07
+created: 2026-01-07, 10:00
+updated: 2026-01-12, 13:30
 system: "Management"
 role: "Менеджер"
 layer: operations
@@ -65,6 +65,7 @@ fpf_patterns:
 - Дефис как разделитель
 - Описательное имя
 - Расширение `.md`
+- Для временных документов (отчеты, логи): `name-YYYY-MM-DD.md`
 
 **Примеры:**
 
@@ -80,8 +81,8 @@ fpf_patterns:
 ---
 type: doc                        # doc, spec, process, report
 status: draft                    # Начинай с draft
-created: 2026-01-07
-updated: 2026-01-07
+created: 2026-01-07, 10:00
+updated: 2026-01-07, 10:00
 system: "SystemName"
 role: "RoleName"
 layer: methodology               # или architecture, operations
@@ -236,4 +237,4 @@ git push -u origin feature/add-document-name
 
 - [Процессы работы](workflows.md)
 - [Стандарты оформления](standards.md)
-- [AI-агенты и FPF](../../../ANTIGRAVITY.md)
+- [AI-агенты и FPF](../../../AI_AGENT.md)
