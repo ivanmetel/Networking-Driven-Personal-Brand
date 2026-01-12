@@ -241,5 +241,5 @@ Constructor           [FPF]            [FPF]             [FPF]
 ## Ссылки
 
 - [README.md](../README.md) — описание SRT-метода
-- [CLAUDE.md](../CLAUDE.md) — интеграция FPF с Claude Code
+- [CLAUDE.md](../CLAUDE.md) — интеграция FPF с AI agent Code
 - [CONTRIBUTING.md](../CONTRIBUTING.md) — правила работы с FPF

@@ -230,10 +230,10 @@ git push -u origin feature/add-document-name
 
 | Дата | Изменение | Автор |
 |------|-----------|-------|
-| 2026-01-07 | Создание документа | Claude |
+| 2026-01-07 | Создание документа | AI agent |
 
 ## Связанные документы
 
 - [Процессы работы](workflows.md)
 - [Стандарты оформления](standards.md)
-- [Claude Code и FPF](../../../CLAUDE.md)
+- [AI agent Code и FPF](../../../CLAUDE.md)

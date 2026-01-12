@@ -148,7 +148,7 @@ curl -sL "https://raw.githubusercontent.com/ailev/FPF/main/FPF-Spec.md" \
 
 ## Шаг 4: Экспертиза описания (с AI)
 
-После заполнения `PROJECT_DESCRIPTION.md` запустите экспертизу с Claude Code:
+После заполнения `PROJECT_DESCRIPTION.md` запустите экспертизу с AI agent Code:
 
 ```
 Прочитай PROJECT_DESCRIPTION.md и проведи экспертизу на основе FPF и SRT:
@@ -316,7 +316,7 @@ srt-template/
 - **Введение в системное мышление:** [docs.system-school.ru](https://docs.system-school.ru/ru/personal/systems-thinking-introduction/preface) — обязательное чтение для понимания SRT
 - **FPF:** [github.com/ailev/FPF](https://github.com/ailev/FPF) — First Principles Framework
 - **Ecosystem Development:** [github.com/aisystant/ecosystem-development](https://github.com/aisystant/ecosystem-development) — пример реального хранилища
-- [CLAUDE.md](CLAUDE.md) — инструкции для работы с Claude Code
+- [CLAUDE.md](CLAUDE.md) — инструкции для работы с AI agent Code
 - [CONTRIBUTING.md](CONTRIBUTING.md) — правила участия
 - [Модель семейств документов](content/0.Management/0.1.%20Логика%20хранилища%20и%20знаний/document-families.md) — подробное описание F0-F9
 

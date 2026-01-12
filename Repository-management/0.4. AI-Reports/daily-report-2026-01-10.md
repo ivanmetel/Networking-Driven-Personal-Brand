@@ -32,7 +32,7 @@ author: Cline
 ## Изменённые файлы
 
 ### Корневые файлы
-- ✅ **CLAUDE.md** — обновлены инструкции для Claude Code
+- ✅ **CLAUDE.md** — обновлены инструкции для AI agent Code
 - ✅ **README.md** — обновлено описание SRT-метода
 - ✅ **CONTRIBUTING.md** — обновлены правила участия
 - ✅ **templates/** — обновлён шаблон PROJECT_DESCRIPTION_TEMPLATE.md

@@ -65,7 +65,7 @@ fpf_patterns:
 - Создание PR
 - Редактирование документов (через PR)
 
-### 4. AI-агент (Claude Code)
+### 4. AI-агент (AI agent Code)
 
 **Ответственность:**
 - Помощь в создании документов
@@ -138,7 +138,7 @@ fpf_patterns:
 
 ```
 User123#Contributor:TargetSystem
-Claude#AI-Agent:AllSections(ReadOnly)
+AI agent#AI-Agent:AllSections(ReadOnly)
 Admin#Administrator:Management
 ```
 
@@ -165,8 +165,8 @@ Admin#Administrator:Management
 
 | Дата | Изменение | Автор |
 |------|-----------|-------|
-| 2026-01-09 | Добавлено распределение по ядрам | Claude |
-| 2026-01-07 | Создание документа | Claude |
+| 2026-01-09 | Добавлено распределение по ядрам | AI agent |
+| 2026-01-07 | Создание документа | AI agent |
 
 ## Связанные документы
 

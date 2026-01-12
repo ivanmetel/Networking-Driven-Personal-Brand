@@ -33,7 +33,7 @@ fpf_patterns:
 | [workflows.md](workflows.md) | Рабочие процессы |
 | [frontmatter-spec.md](frontmatter-spec.md) | Спецификация метаданных (frontmatter) |
 
-> **Для интеграции Claude Code и FPF** см. [CLAUDE.md](../../../CLAUDE.md) в корне репозитория.
+> **Для интеграции AI agent Code и FPF** см. [CLAUDE.md](../../../CLAUDE.md) в корне репозитория.
 
 ## Что здесь размещается
 
