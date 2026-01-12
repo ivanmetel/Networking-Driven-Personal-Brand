@@ -6,7 +6,7 @@ tags: [management, ai, reports, automation, template]
 status: "active"
 related:
   - ../README.md
-  - ../0.2. Repository-Processes/frontmatter-spec.md
+  - ../0.2.%20Domain/frontmatter-spec.md
 fpf_principles:
   - automation
   - transparency
@@ -172,8 +172,8 @@ scope: project
 target_audience: [administrators, contributors, developers]
 related:
   - ../README.md
-  - ../0.1. Knowledge-Base-Logic/glossary.md
-  - ../0.1. Knowledge-Base-Logic/document-families.md
+  - ../0.1.%20Core/glossary.md
+  - ../0.1.%20Core/document-families.md
 fpf_principles:
   - documentation-first
   - traceability
@@ -284,8 +284,8 @@ author:
 ---
 
 ## 📎 Related Documents
-- [Frontmatter Spec](../0.2. Repository-Processes/frontmatter-spec.md)
-- [Document Families](../0.1. Knowledge-Base-Logic/document-families.md)
+- [Frontmatter Spec](../0.2.%20Domain/frontmatter-spec.md)
+- [Document Families](../0.1.%20Core/document-families.md)
 ```
 
 ---
@@ -393,7 +393,7 @@ author:
 ---
 
 ## 📎 Related Documents
-- [Document Families](../0.1. Knowledge-Base-Logic/document-families.md)
+- [Document Families](../0.1.%20Core/document-families.md)
 - [Project Roadmap](../0.3. Plans-and-Meetings/)
 ```
 
@@ -534,7 +534,7 @@ Documents with NO `related` links pointing TO them:
 
 ## 📎 Related Documents
 - [FPF Spec](../../.fpf/FPF-Spec.md)
-- [System Identification](../0.1. Knowledge-Base-Logic/system-identification.md)
+- [System Identification](../0.1.%20Core/system-identification.md)
 ```
 
 ---
@@ -862,7 +862,7 @@ If measurable:
 ## 📈 Glossary Compliance
 
 **Terminology Check:**
-- [ ] Uses terms from [glossary.md](../0.1. Knowledge-Base-Logic/glossary.md)
+- [ ] Uses terms from [glossary.md](../0.1.%20Core/glossary.md)
 - [ ] Systems correspond to variables: `Constructor → Product → User → Result → Environment`
 - [ ] No invented terms without definition
 
@@ -907,8 +907,8 @@ If measurable:
 ---
 
 ## 📎 References
-- [System Identification Rules](../0.1. Knowledge-Base-Logic/system-identification.md)
-- [Glossary](../0.1. Knowledge-Base-Logic/glossary.md)
+- [System Identification Rules](../0.1.%20Core/system-identification.md)
+- [Glossary](../0.1.%20Core/glossary.md)
 - [FPF Spec](../../.fpf/FPF-Spec.md)
 ```
 

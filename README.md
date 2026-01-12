@@ -23,13 +23,13 @@ CooperActive Systems → Приложение → Организатор ORA →
 
 | Ядро | Название | Целевая система | Надсистема | Система создания |
 |------|----------|-----------------|------------|------------------|
-| **A.Target** | Целевая система | Впечатлённый человек | Среда, в которой живёт человек | ORA (ивент-продукт) |
-| **B.Product** | Наша система | Приложение | Организатор ORA | Planora |
+| **A. SoI** | Целевая система | Впечатлённый человек | Среда, в которой живёт человек | ORA (ивент-продукт) |
+| **B. Product** | Наша система | Приложение | Организатор ORA | Planora |
 
 ### Визуализация связей
 
 ```
-ЯДРО A (Target)
+ЯДРО A (SoI)
 ───────────────────────────────────────────────────────────────────
 
   Среда, в которой       Впечатлённый человек       ORA
@@ -63,7 +63,7 @@ CooperActive Systems → Приложение → Организатор ORA →
 ```
 Planora/
 ├── README.md                        # Этот файл
-├── ANTIGRAVITY.md                   # Инструкции для AI-агентов
+├── CLAUDE.md                        # Инструкции для AI-агентов
 │
 ├── .fpf/                            # First Principles Framework
 │   ├── INDEX.md
@@ -71,8 +71,8 @@ Planora/
 │   └── FPF-Readme.md
 │
 ├── Repository-management/           # F19 — метасистема хранилища
-│   ├── 0.1. Knowledge-Base-Logic/
-│   ├── 0.2. Repository-Processes/
+│   ├── 0.1. Core/
+│   ├── 0.2. Domain/
 │   ├── 0.3. Plans-and-Meetings/
 │   ├── 0.4. AI-Reports/
 │   └── ...
@@ -150,8 +150,8 @@ Planora/
 
 ## Быстрый старт
 
-1. Изучите [определения систем](Repository-management/0.1. Knowledge-Base-/system-identification.md)
-2. Прочитайте [глоссарий](Repository-management/0.1.%20Knowledge-Base-Logic/glossary.md)
+1. Изучите [определения систем](Repository-management/0.1.%20Core/system-identification.md)
+2. Прочитайте [глоссарий](Repository-management/0.1.%20Core/glossary.md)
 3. Начните с ядра, релевантного вашей роли:
    - **ORA-студия** → [Ядро A (Target)](Systems-Description/A.Target/)
    - **ИТ-служба** → [Ядро B (Product)](Systems-Description/B.Product/)
@@ -159,7 +159,7 @@ Planora/
 ## Ссылки
 
 - [Repository-management](Repository-management/) — управление хранилищем (FO)
-- [Модель семейств документов](Repository-management/0.1. Knowledge-Base-Logic/document-families.md)
+- [Модель семейств документов](Repository-management/0.1. Core/document-families.md)
 - **Введение в системное мышление:** [docs.system-school.ru](https://docs.system-school.ru/ru/personal/systems-thinking-introduction/preface) — обязательное чтение для понимания SRT
 - **FPF:** [github.com/ailev/FPF](https://github.com/ailev/FPF) — First Principles Framework
 - **Ecosystem Development:** [github.com/aisystant/ecosystem-development](https://github.com/aisystant/ecosystem-development) — пример реального хранилища

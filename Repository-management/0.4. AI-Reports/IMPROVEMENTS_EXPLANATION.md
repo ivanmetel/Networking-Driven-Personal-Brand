@@ -323,8 +323,8 @@ Day 2026-01-13:
 ## Related Documents
 
 - [AI-Reports README](./README.md) - Main template document
-- [Frontmatter Spec](../0.2. Repository-Processes/frontmatter-spec.md)
-- [System Identification](../0.1. Knowledge-Base-Logic/system-identification.md)
+- [Frontmatter Spec](../0.2.%20Domain/frontmatter-spec.md)
+- [System Identification](../0.1.%20Core/system-identification.md)
 - [FPF Spec](../../.fpf/FPF-Spec.md)
 
 ---

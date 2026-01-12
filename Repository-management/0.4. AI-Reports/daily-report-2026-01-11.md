@@ -10,8 +10,8 @@ scope: project
 target_audience: [administrators, contributors]
 related:
   - ../README.md
-  - ../0.1. Логика хранилища и знаний/glossary.md
-  - ../0.1. Логика хранилища и знаний/document-families.md
+  - ../0.1.%20Core/glossary.md
+  - ../0.1.%20Core/document-families.md
   - daily-report-2026-01-10.md
 fpf_principles:
   - comparison-analysis
@@ -42,8 +42,8 @@ author: Cline
 ```
 Planora/
 ├── Repository-management/           # F19 — метасистема хранилища
-│   ├── 0.1. Knowledge-Base-Logic/
-│   ├── 0.2. Repository-Processes/
+│   ├── 0.1. Core/
+│   ├── 0.2. Domain/
 │   └── ...
 │
 └── Systems-Description/             # 18 семейств (2 ядра × 9)
@@ -261,8 +261,8 @@ NDPB/
 ## Связанные документы
 
 - [Planora README](/tmp/planora-reference/README.md) — полный пример двухъядерной структуры
-- [Глоссарий](../0.1. Логика хранилища и знаний/glossary.md) — определения ядер и мостов
-- [Модель семейств документов](../0.1. Логика хранилища и знаний/document-families.md) — описание F0-F9
+- [Глоссарий](../0.1.%20Core/glossary.md) — определения ядер и мостов
+- [Модель семейств документов](../0.1.%20Core/document-families.md) — описание F0-F9
 - [Шаблон PROJECT_DESCRIPTION](../../../templates/PROJECT_DESCRIPTION_TEMPLATE.md)
 - [Daily Report 2026-01-10](daily-report-2026-01-10.md) — предыдущий отчёт
 

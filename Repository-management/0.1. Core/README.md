@@ -1,19 +1,19 @@
 ---
 system: "Management"
-title: "Knowledge-Base-Logic"
+title: "Core"
 date: "2026-01-08"
 tags: [management, logic, principles, glossary, families]
 status: "active"
 related:
   - ../README.md
-  - "../0.2. Repository-Processes/README.md"
+  - "../0.2.%20Domain/README.md"
 fpf_principles:
   - minimalism
   - clarity
   - systemic-thinking
 ---
 
-# 0.1. Knowledge-Base-Logic
+# 0.1. Core
 
 ## Назначение раздела
 
@@ -46,4 +46,4 @@ fpf_principles:
 ## Связанные документы
 
 - [Раздел Management](../README.md)
-- [Repository-Processes](../0.2.%20Repository-Processes/README.md)
+- [Domain](../0.2.%20Domain/README.md)

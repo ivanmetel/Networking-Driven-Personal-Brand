@@ -1,12 +1,12 @@
 ---
 system: "Management"
-title: "Repository-Processes"
+title: "Domain"
 date: "2026-01-08"
 tags: [management, processes, workflows, standards]
 status: "active"
 related:
   - ../README.md
-  - "../0.1. Knowledge-Base-Logic/README.md"
+  - "../0.1. Core/README.md"
 fpf_principles:
   - minimalism
   - practicality
@@ -14,7 +14,7 @@ fpf_patterns:
   - B.4      # Canonical Evolution
 ---
 
-# 0.2. Repository-Processes
+# 0.2. Domain
 
 ## Назначение раздела
 
@@ -66,4 +66,4 @@ fpf_patterns:
 ## Связанные документы
 
 - [Раздел Management](../README.md)
-- [Knowledge-Base-Logic](../0.1.%20Knowledge-Base-Logic/README.md)
+- [Core](../0.1.%20Core/README.md)

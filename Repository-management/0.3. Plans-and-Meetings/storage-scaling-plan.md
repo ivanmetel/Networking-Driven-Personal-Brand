@@ -9,8 +9,8 @@ layer: methodology
 scope: project
 target_audience: [administrators, product-managers, architects]
 related:
-  - ../0.1. Knowledge-Base-Logic/document-families.md
-  - ../0.1. Knowledge-Base-Logic/glossary.md
+  - ../0.1.%20Core/document-families.md
+  - ../0.1.%20Core/glossary.md
   - ../../Systems-Description/B.Product/B2.Target-system-App/README.md
 fpf_principles:
   - systemic-thinking
@@ -339,6 +339,6 @@ fpf_patterns:
 
 ## Связанные документы
 
-- [Модель семейств документов](../0.1.%20Knowledge-Base-Logic/document-families.md)
-- [Глоссарий](../0.1.%20Knowledge-Base-Logic/glossary.md)
+- [Модель семейств документов](../0.1.%20Core/document-families.md)
+- [Глоссарий](../0.1.%20Core/glossary.md)
 - [Приложение (B2)](../../Systems-Description/B.Product/B2.Target-system-App/README.md)

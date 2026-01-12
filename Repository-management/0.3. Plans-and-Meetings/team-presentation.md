@@ -338,8 +338,8 @@ ORA собирается за 2 часа
 ```
 Planora/
 ├── Repository-management/        ← управление, стандарты, глоссарий
-│   ├── 0.1. Knowledge-Base-Logic/
-│   ├── 0.2. Repository-Processes/
+│   ├── 0.1. Core/
+│   ├── 0.2. Domain/
 │   └── 0.3. Plans-and-Meetings/
 │
 ├── Systems-Description/
@@ -441,8 +441,8 @@ Planora/
 
 **Ссылки:**
 - [README.md](../../README.md)
-- [Глоссарий](../0.1.%20Knowledge-Base-Logic/glossary.md)
-- [Модель семейств](../0.1.%20Knowledge-Base-Logic/document-families.md)
+- [Глоссарий](../0.1.%20Core/glossary.md)
+- [Модель семейств](../0.1.%20Core/document-families.md)
 
 ---
 
