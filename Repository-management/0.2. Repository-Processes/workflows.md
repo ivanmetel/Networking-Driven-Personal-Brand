@@ -11,7 +11,7 @@ target_audience: [contributors, administrators]
 related:
   - document-creation.md
   - roles.md
-  - ../../../CLAUDE.md
+  - ../../../ANTIGRAVITY.md
 fpf_principles:
   - practicality
   - incremental-improvement
@@ -176,6 +176,6 @@ docs/update-glossary
 ## Связанные документы
 
 - [Создание документов](document-creation.md)
-- [AI agent Code и FPF](../../../CLAUDE.md)
+- [AI-агенты и FPF](../../../ANTIGRAVITY.md)
 - [Роли и ответственность](roles.md)
 - [Стандарты оформления](standards.md)

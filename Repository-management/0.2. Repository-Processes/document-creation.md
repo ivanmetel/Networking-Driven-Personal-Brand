@@ -11,7 +11,7 @@ target_audience: [contributors, ai-agents]
 related:
   - workflows.md
   - standards.md
-  - ../../../CLAUDE.md
+  - ../../../ANTIGRAVITY.md
 fpf_principles:
   - minimalism
   - metadata-first
@@ -236,4 +236,4 @@ git push -u origin feature/add-document-name
 
 - [Процессы работы](workflows.md)
 - [Стандарты оформления](standards.md)
-- [AI agent Code и FPF](../../../CLAUDE.md)
+- [AI-агенты и FPF](../../../ANTIGRAVITY.md)

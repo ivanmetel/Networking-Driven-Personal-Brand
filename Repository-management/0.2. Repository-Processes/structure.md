@@ -67,7 +67,7 @@ Planora → Приложение → Организатор ORA → ORA → Вп
 ```
 srt-template1/
 ├── README.md                    # Главное описание проекта
-├── CLAUDE.md                    # Инструкции для AI agent Code
+├── ANTIGRAVITY.md                   # Инструкции для AI-агентов
 │
 ├── .fpf/                        # First Principles Framework
 │   ├── INDEX.md                 # Локальные принципы проекта

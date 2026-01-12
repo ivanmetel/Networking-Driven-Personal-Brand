@@ -18,7 +18,7 @@ fpf_principles:
   - clarity
 fpf_patterns:
   - B.4    # Canonical Evolution
-author: Cline
+author: AI agent
 ---
 
 # Changelog: Обновление SRT-шаблона до версии 2026-01-10
@@ -32,7 +32,7 @@ author: Cline
 ## Изменённые файлы
 
 ### Корневые файлы
-- ✅ **CLAUDE.md** — обновлены инструкции для AI agent Code
+- ✅ **ANTIGRAVITY.md** — обновлены инструкции для AI-агентов
 - ✅ **README.md** — обновлено описание SRT-метода
 - ✅ **CONTRIBUTING.md** — обновлены правила участия
 - ✅ **templates/** — обновлён шаблон PROJECT_DESCRIPTION_TEMPLATE.md
