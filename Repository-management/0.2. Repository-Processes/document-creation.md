@@ -11,7 +11,7 @@ target_audience: [contributors, ai-agents]
 related:
   - workflows.md
   - standards.md
-  - ../../../ANTIGRAVITY.md
+  - ../../../AI_AGENT.md
 fpf_principles:
   - minimalism
   - metadata-first

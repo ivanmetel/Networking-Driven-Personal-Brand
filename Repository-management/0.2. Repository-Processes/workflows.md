@@ -11,7 +11,7 @@ target_audience: [contributors, administrators]
 related:
   - document-creation.md
   - roles.md
-  - ../../../ANTIGRAVITY.md
+  - ../../../AI_AGENT.md
 fpf_principles:
   - practicality
   - incremental-improvement

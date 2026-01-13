@@ -33,7 +33,7 @@ fpf_patterns:
 | [workflows.md](workflows.md) | Рабочие процессы |
 | [frontmatter-spec.md](frontmatter-spec.md) | Спецификация метаданных (frontmatter) |
 
-> **Для интеграции AI-агентов и FPF** см. [ANTIGRAVITY.md](../../../ANTIGRAVITY.md) в корне репозитория.
+> **Для интеграции AI-агентов и FPF** см. [AI_AGENT.md](../../../AI_AGENT.md) в корне репозитория.
 
 ## Что здесь размещается
 
