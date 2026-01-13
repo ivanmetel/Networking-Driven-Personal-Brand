@@ -1,6 +1,6 @@
 # **Networking-Driven Personal Brand: [добавить слоган]**
 
-Это хранилище знаний компании CooperActive Systems, организованное по SRT-методу с двухъядерной структурой.
+Это хранилище знаний компании CooperActive Systems, организованное по SRD-методу с двухъядерной структурой.
 
 ## Цепочка создания ценности
 
@@ -63,7 +63,7 @@ CooperActive Systems → Приложение → Организатор ORA →
 ```
 Planora/
 ├── README.md                        # Этот файл
-├── CLAUDE.md                        # Инструкции для AI-агентов
+├── AI_AGENT.md                      # Инструкции для AI-агентов
 │
 ├── .fpf/                            # First Principles Framework
 │   ├── INDEX.md
@@ -71,13 +71,13 @@ Planora/
 │   └── FPF-Readme.md
 │
 ├── Repository-management/           # F19 — метасистема хранилища
-│   ├── 0.1. Core/
-│   ├── 0.2. Domain/
+│   ├── 0.1. Knowledge-Base-Logic/
+│   ├── 0.2. Repository-management/
 │   ├── 0.3. Plans-and-Meetings/
 │   ├── 0.4. AI-Reports/
 │   └── ...
 │
-└── Systems-Description/             # Описания систем по методу SRT
+└── Systems-Description/             # Описания систем по методу SRD
     ├── A.Target/                    # Ядро A: 9 семейств
     │   ├── A1.Suprasystem-Human-Environment/
     │   ├── A2.System-of-Interest-Impressed-Human/
@@ -150,8 +150,8 @@ Planora/
 
 ## Быстрый старт
 
-1. Изучите [определения систем](Repository-management/0.1.%20Core/system-identification.md)
-2. Прочитайте [глоссарий](Repository-management/0.1.%20Core/glossary.md)
+1. Изучите [определения систем](Repository-management/0.1.%20Knowledge-Base-Logic/system-identification.md)
+2. Прочитайте [глоссарий](Repository-management/0.1.%20Knowledge-Base-Logic/glossary.md)
 3. Начните с ядра, релевантного вашей роли:
    - **ORA-студия** → [Ядро A (Target)](Systems-Description/A.Target/)
    - **ИТ-служба** → [Ядро B (Product)](Systems-Description/B.Product/)
@@ -159,11 +159,11 @@ Planora/
 ## Ссылки
 
 - [Repository-management](Repository-management/) — управление хранилищем (FO)
-- [Модель семейств документов](Repository-management/0.1. Core/document-families.md)
-- **Введение в системное мышление:** [docs.system-school.ru](https://docs.system-school.ru/ru/personal/systems-thinking-introduction/preface) — обязательное чтение для понимания SRT
+- [Модель семейств документов](Repository-management/0.1.%20Knowledge-Base-Logic/document-families.md)
+- **Введение в системное мышление:** [docs.system-school.ru](https://docs.system-school.ru/ru/personal/systems-thinking-introduction/preface) — обязательное чтение для понимания SRD
 - **FPF:** [github.com/ailev/FPF](https://github.com/ailev/FPF) — First Principles Framework
 - **Ecosystem Development:** [github.com/aisystant/ecosystem-development](https://github.com/aisystant/ecosystem-development) — пример реального хранилища
-- [ANTIGRAVITY.md](ANTIGRAVITY.md) — инструкции для работы с AI-агентами
+- [AI_AGENT.md](AI_AGENT.md) — инструкции для работы с AI-агентами
 - [CONTRIBUTING.md](CONTRIBUTING.md) — правила участия
 
 

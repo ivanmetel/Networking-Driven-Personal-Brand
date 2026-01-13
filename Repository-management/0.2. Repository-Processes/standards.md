@@ -11,7 +11,7 @@ target_audience: [ai-agents, contributors]
 related:
   - structure.md
   - roles.md
-  - "../0.1. Core/taxonomy.md"
+  - "../0.1.%20Knowledge-Base-Logic/taxonomy.md"
 fpf_principles:
   - clarity
   - metadata-first
@@ -284,5 +284,5 @@ role: "Инженер"
 ## Связанные документы
 
 - [Структура хранилища](structure.md)
-- [Классификация и теги](../0.1.%20Core/taxonomy.md)
+- [Классификация и теги](../0.1.%20Knowledge-Base-Logic/taxonomy.md)
 - [Создание документов](document-creation.md)

@@ -2,7 +2,7 @@
 type: doc
 status: active
 created: 2026-01-07
-updated: 2026-01-09
+updated: 2026-01-13, 13:15
 system: "Management"
 role: "Инженер"
 layer: architecture
@@ -11,8 +11,8 @@ target_audience: [ai-agents, administrators, contributors]
 related:
   - roles.md
   - standards.md
-  - "../0.1. Core/principles.md"
-  - "../0.1. Core/document-families.md"
+  - "../0.1.%20Knowledge-Base-Logic/principles.md"
+  - "../0.1.%20Knowledge-Base-Logic/document-families.md"
 fpf_principles:
   - systemic-thinking
   - srt-structure
@@ -60,7 +60,7 @@ fpf_patterns:
 Planora → Приложение → Организатор ORA → ORA → Впечатлённый человек → Среда
 ```
 
-> **Терминология:** См. [glossary.md](../0.1.%20Core/glossary.md) для определений всех систем.
+> **Терминология:** См. [glossary.md](../0.1.%20Knowledge-Base-Logic/glossary.md) для определений всех систем.
 
 ## Верхнеуровневая структура
 
@@ -75,11 +75,11 @@ srt-template1/
 │   └── FPF-Readme.md            # Обзор FPF
 │
 ├── Repository-management/       # F19 — метасистема хранилища
-│   ├── 0.1. Core/
-│   ├── 0.2. Domain/
+│   ├── 0.1. Knowledge-Base-Logic/
+│   ├── 0.2. Repository-Processes/
 │   └── ...
 │
-└── Company-Content/             # Контент по методу SRT
+└── Company-Content/             # Контент по методу SRD
     ├── A.Target/                # Ядро A: 9 семейств (A1-A3 × 3 роли)
     └── B.Product/               # Ядро B: 9 семейств (B1-B3 × 3 роли)
 ```
@@ -150,14 +150,14 @@ Company-Content/
 Repository-management/
 ├── README.md                              # О разделе Management
 │
-├── 0.1. Core/             # Онтология
+├── 0.1. Knowledge-Base-Logic/             # Онтология
 │   ├── document-families.md               # ⭐ Модель 19 семейств
 │   ├── principles.md                      # Принципы организации
 │   ├── glossary.md                        # Глоссарий (2 части)
 │   ├── taxonomy.md                        # Классификация
 │   └── system-identification.md           # Определение систем
 │
-├── 0.2. Domain/             # Операции и стандарты
+├── 0.2. Repository-Processes/             # Операции и стандарты
 │   ├── structure.md                       # Этот документ
 │   ├── standards.md                       # Стандарты оформления
 │   ├── roles.md                           # Роли и ответственность
@@ -195,7 +195,7 @@ Repository-management/
 ### Примеры путей
 
 ```
-Repository-management/0.1. Core/glossary.md
+Repository-management/0.1. Knowledge-Base-Logic/glossary.md
 Company-Content/A.Target/A2.System-of-Interest/A2.2.Инженер/persona-model.md
 Company-Content/B.Product/B2.System-of-Interest/B2.2.Инженер/api-schema.md
 Company-Content/B.Product/B3.Constructor/B3.3.Менеджер/ci-cd-pipeline.md
@@ -257,7 +257,7 @@ Company-Content/B.Product/B3.Constructor/B3.3.Менеджер/ci-cd-pipeline.md
 
 ## Связанные документы
 
-- [Модель семейств документов](../0.1.%20Core/document-families.md)
-- [Глоссарий](../0.1.%20Core/glossary.md)
+- [Модель семейств документов](../0.1.%20Knowledge-Base-Logic/document-families.md)
+- [Глоссарий](../0.1.%20Knowledge-Base-Logic/glossary.md)
 - [Роли и ответственность](roles.md)
 - [Стандарты оформления](standards.md)

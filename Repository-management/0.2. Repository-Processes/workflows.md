@@ -2,7 +2,7 @@
 type: process
 status: active
 created: 2026-01-07
-updated: 2026-01-07
+updated: 2026-01-13, 14:40
 system: "Management"
 role: "Менеджер"
 layer: operations
@@ -39,7 +39,7 @@ fpf_patterns:
 
 **Шаги:**
 
-1. **Определить место в SRT-таблице**
+1. **Определить место в SRD-таблице**
    - Выбрать систему (0-3)
    - Выбрать роль (Предприниматель/Инженер/Менеджер)
    - Проверить, нет ли похожего документа
@@ -176,6 +176,6 @@ docs/update-glossary
 ## Связанные документы
 
 - [Создание документов](document-creation.md)
-- [AI-агенты и FPF](../../../ANTIGRAVITY.md)
+- [AI-агенты и FPF](../../../AI-AGENTS.md)
 - [Роли и ответственность](roles.md)
 - [Стандарты оформления](standards.md)

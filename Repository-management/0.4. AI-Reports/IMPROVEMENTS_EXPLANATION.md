@@ -1,7 +1,8 @@
 ---
 system: "Management"
 title: "AI-Reports Template Improvements"
-date: "2026-01-12"
+created: 2026-01-12
+updated: 2026-01-13, 14:40
 tags: [management, ai, reports, documentation, improvements]
 status: "active"
 related:
@@ -71,7 +72,7 @@ Priority 4: Volume & complexity (file count, complexity)
 
 **Templates Created:**
 1. **Document Quality** - Frontmatter, relationships, completeness
-2. **Table Coverage** - SRT matrix progress (F1-F9)
+2. **Table Coverage** - SRD matrix progress (F1-F9)
 3. **Broken Links** - Internal and external links
 4. **FPF Compliance** - Adherence to principles/patterns
 5. **Analysis/Comparison** - System analysis, research
@@ -136,7 +137,7 @@ target_audience: [...]    # Who should read it
 related: [...]            # Link to related docs
 fpf_principles: [...]     # FPF adherence
 fpf_patterns: [...]       # Patterns applied
-author: [...]            # Who created it
+author: [...]             # Who created it
 ```
 
 ---
@@ -182,7 +183,7 @@ and generate a quality report in "0.4. AI-Reports/"
 
 # Coverage Analysis
 Generate a table coverage report showing progress
-for all SRT families (F1-F9)
+for all SRD families (F1-F9)
 ```
 
 ### 7. 📁 File Naming Convention (Conflict Prevention)
@@ -323,8 +324,8 @@ Day 2026-01-13:
 ## Related Documents
 
 - [AI-Reports README](./README.md) - Main template document
-- [Frontmatter Spec](../0.2.%20Domain/frontmatter-spec.md)
-- [System Identification](../0.1.%20Core/system-identification.md)
+- [Frontmatter Spec](../0.2.%20Repository-management/frontmatter-spec.md)
+- [System Identification](../0.1.%20Knowledge-Base-Logic/system-identification.md)
 - [FPF Spec](../../.fpf/FPF-Spec.md)
 
 ---
@@ -337,4 +338,4 @@ Day 2026-01-13:
 
 ---
 
-*Last Updated: 2026-01-12*
+*Last Updated: 2026-01-13*

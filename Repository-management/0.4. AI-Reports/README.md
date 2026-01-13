@@ -6,7 +6,7 @@ tags: [management, ai, reports, automation, template]
 status: "active"
 related:
   - ../README.md
-  - ../0.2.%20Domain/frontmatter-spec.md
+  - ../0.2.%20Repository-Processes/frontmatter-spec.md
 fpf_principles:
   - automation
   - transparency
@@ -146,7 +146,7 @@ ELSE:
 | # | Type | Description | When to Use | Default Depth | Template |
 |---|------|-------------|--------------|---------------|----------|
 | 1 | **Document Quality** | Frontmatter, relationships, completeness | On request | Quick | [Quality Template](#1-document-quality-report) |
-| 2 | **Table Coverage** | SRT matrix completion (F1-F9) | Weekly/Monthly | Quick | [Coverage Template](#2-table-coverage-report) |
+| 2 | **Table Coverage** | SRD matrix completion (F1-F9) | Weekly/Monthly | Quick | [Coverage Template](#2-table-coverage-report) |
 | 3 | **Broken Links** | Related and external links check | On request | Quick | [Links Template](#3-broken-links-report) |
 | 4 | **FPF Compliance** | Adherence to principles/patterns | On request | **Detailed** | [Compliance Template](#4-fpf-compliance-report) |
 | 5 | **Analysis/Comparison** | System analysis, comparison, research | On request | **Detailed** | [Analysis Template](#5-analysiscomparison-report) |
@@ -172,8 +172,8 @@ scope: project
 target_audience: [administrators, contributors, developers]
 related:
   - ../README.md
-  - ../0.1.%20Core/glossary.md
-  - ../0.1.%20Core/document-families.md
+  - ../0.1.%20Knowledge-Base-Logic/glossary.md
+  - ../0.1.%20Knowledge-Base-Logic/document-families.md
 fpf_principles:
   - documentation-first
   - traceability
@@ -284,18 +284,18 @@ author:
 ---
 
 ## 📎 Related Documents
-- [Frontmatter Spec](../0.2.%20Domain/frontmatter-spec.md)
-- [Document Families](../0.1.%20Core/document-families.md)
+- [Frontmatter Spec](../0.2.%20Repository-Processes/frontmatter-spec.md)
+- [Document Families](../0.1.%20Knowledge-Base-Logic/document-families.md)
 ```
 
 ---
 
 ### 2. Table Coverage Report
 
-**Use when:** Measuring progress on SRT matrix (F1-F9 coverage).
+**Use when:** Measuring progress on SRD matrix (F1-F9 coverage).
 
 ```markdown
-# SRT Matrix Coverage Report
+# SRD Matrix Coverage Report
 
 ## 📅 Metadata
 **Date:** YYYY-MM-DD
@@ -393,7 +393,7 @@ author:
 ---
 
 ## 📎 Related Documents
-- [Document Families](../0.1.%20Core/document-families.md)
+- [Document Families](../0.1.%20Knowledge-Base-Logic/document-families.md)
 - [Project Roadmap](../0.3. Plans-and-Meetings/)
 ```
 
@@ -534,7 +534,7 @@ Documents with NO `related` links pointing TO them:
 
 ## 📎 Related Documents
 - [FPF Spec](../../.fpf/FPF-Spec.md)
-- [System Identification](../0.1.%20Core/system-identification.md)
+- [System Identification](../0.1.%Knowledge-Base-Logic/system-identification.md)
 ```
 
 ---
@@ -862,7 +862,7 @@ If measurable:
 ## 📈 Glossary Compliance
 
 **Terminology Check:**
-- [ ] Uses terms from [glossary.md](../0.1.%20Core/glossary.md)
+- [ ] Uses terms from [glossary.md](../0.1.%20Knowledge-Base-Logic/glossary.md)
 - [ ] Systems correspond to variables: `Constructor → Product → User → Result → Environment`
 - [ ] No invented terms without definition
 
@@ -907,8 +907,8 @@ If measurable:
 ---
 
 ## 📎 References
-- [System Identification Rules](../0.1.%20Core/system-identification.md)
-- [Glossary](../0.1.%20Core/glossary.md)
+- [System Identification Rules](../0.1.%20Knowledge-Base-Logic/system-identification.md)
+- [Glossary](../0.1.%20Knowledge-Base-Logic/glossary.md)
 - [FPF Spec](../../.fpf/FPF-Spec.md)
 ```
 
@@ -1006,7 +1006,7 @@ and generate a quality report in "0.4. AI-Reports/"
 
 # Coverage Analysis
 Generate a table coverage report showing progress
-for all SRT families (F1-F9)
+for all SRD families (F1-F9)
 
 # Link Verification
 Check all related and external links in the repository
@@ -1025,10 +1025,10 @@ Audit documents for FPF principle and pattern compliance
 ## 📎 Related Documents
 
 - [Management Section](../README.md)
-- [Frontmatter Spec](../0.2. Domain/frontmatter-spec.md)
-- [Document Families](../0.1. Core/document-families.md)
-- [System Identification](../0.1. Core/system-identification.md)
-- [Glossary](../0.1. Core/glossary.md)
+- [Frontmatter Spec](../0.2.%20Repository-Processes/frontmatter-spec.md)
+- [Document Families](../0.1.%20Knowledge-Base-Logic/document-families.md)
+- [System Identification](../0.1.%20Knowledge-Base-Logic/system-identification.md)
+- [Glossary](../0.1.%20Knowledge-Base-Logic/glossary.md)
 - [FPF Spec](../../.fpf/FPF-Spec.md)
 
 ---
