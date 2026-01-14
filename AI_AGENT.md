@@ -205,8 +205,8 @@ Read: content/0.Management/0.2. Процессы работы с хранили�
 author: [ТВОЁ ИМЯ]             # ЗАМЕНИ НА СВОЁ ИМЯ: Cline / Antigravity / Claude Code / другое (НЕ пиши "AI agent")
 type: doc                        # doc, spec, process, report
 status: active                   # stub, draft, active, archived
-created: 2026-01-07
-updated: 2026-01-07
+created: YYYY-MM-DD, HH:mm
+updated: YYYY-MM-DD, HH:mm
 system: "Management"             # Management/Suprasystem/System-of-Interest/Constructor
 role: "Предприниматель"          # Предприниматель/Инженер/Менеджер
 layer: methodology               # methodology, architecture, operations

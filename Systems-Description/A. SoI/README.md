@@ -36,7 +36,7 @@ A.Target/
 
 ORA (A3) использует **Приложение** (B2) как инструмент цифрового контура.
 
-> См. [F19. Repository-management](../../Repository-management/) — раздел "Мосты между ядрами" в [document-families.md](../../Repository-management/0.1.%20Логика%20хранилища%20и%20знаний/document-families.md).
+> См. [F0. Repository-management](../../Repository-management/) — раздел "Мосты между ядрами" в [document-families.md](../../Repository-management/0.1.%20Логика%20хранилища%20и%20знаний/document-families.md).
 
 ## Для кого это ядро
 

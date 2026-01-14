@@ -70,7 +70,7 @@ Planora/
 │   ├── FPF-Spec.md
 │   └── FPF-Readme.md
 │
-├── Repository-management/           # F19 — метасистема хранилища
+├── Repository-management/           # F0 — метасистема хранилища
 │   ├── 0.1. Knowledge-Base-Logic/
 │   ├── 0.2. Repository-management/
 │   ├── 0.3. Plans-and-Meetings/
@@ -142,7 +142,7 @@ Planora/
 | B3.2 | Компания Planora | Инженер | ИТ-служба + ORA-студия |
 | B3.3 | Компания Planora | Менеджер | Команда, процессы |
 
-### F19 — метасемейство
+### F0 — метасемейство
 
 | Код | Содержание |
 |-----|------------|
