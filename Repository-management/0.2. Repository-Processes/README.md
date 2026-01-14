@@ -1,69 +1,31 @@
 ---
-system: "Management"
-title: "Domain"
-date: "2026-01-08"
-tags: [management, processes, workflows, standards]
-status: "active"
-related:
-  - ../README.md
-  - "../0.1.%20Knowledge-Base-Logic/README.md"
-fpf_principles:
-  - minimalism
-  - practicality
-fpf_patterns:
-  - B.4      # Canonical Evolution
+type: doc
+status: active
+created: 2026-01-14
+updated: 2026-01-14
+family: F0
+scope: repository
 ---
 
-# 0.2. Repository-Processes
+# 0.2. Repository Processes
 
-## Назначение раздела
+Процессы и стандарты работы с хранилищем.
 
-Здесь документируются **процессы и стандарты** работы с хранилищем: как создавать документы, какие форматы использовать, как валидировать.
-
-**Ключевой вопрос:** Как работать с хранилищем?
-
-## Содержимое раздела
+## Содержимое
 
 | Документ | Описание |
 |----------|----------|
-| [structure.md](structure.md) | Структура папок и файлов |
-| [standards.md](standards.md) | Стандарты оформления документов |
-| [roles.md](roles.md) | Роли и ответственность |
-| [document-creation.md](document-creation.md) | Процесс создания документов |
-| [workflows.md](workflows.md) | Рабочие процессы |
-| [frontmatter-spec.md](frontmatter-spec.md) | Спецификация метаданных (frontmatter) |
+| [01-project-description-template.md](01-project-description-template.md) | ⭐ Шаблон описания проекта (первый шаг) |
+| [02-standards.md](02-standards.md) | Стандарты оформления документов |
+| [03-structure.md](03-structure.md) | Структура папок репозитория |
+| [04-document-creation.md](04-document-creation.md) | Процесс создания документов |
+| [05-frontmatter-spec.md](05-frontmatter-spec.md) | Спецификация метаданных |
+| [06-workflows.md](06-workflows.md) | Рабочие процессы |
+| [07-roles.md](07-roles.md) | Роли и ответственность |
 
-> **Для интеграции AI-агентов и FPF** см. [AI_AGENT.md](../../../AI_AGENT.md) в корне репозитория.
+## Быстрый старт
 
-## Что здесь размещается
-
-- **Структура** — архитектура хранилища, папки, файлы
-- **Стандарты** — правила оформления, форматы, шаблоны
-- **Процессы** — workflows создания и обновления документов
-- **Валидация** — спецификации для проверки документов
-- **Роли** — ответственность и распределение работы
-
-## Процесс накопления хранилища
-
-### Этап 0: Инициализация
-1. Fork шаблона → 2. Описание проекта → 3. Экспертиза → 4. Названия систем
-
-### Этап 1: Заполнение ядра
-По 2-3 документа в каждой системе (Suprasystem, System-of-Interest, Constructor)
-
-### Этап 2: Расширение
-Детализация архитектуры, процессов, взаимодействий
-
-### Этап 3: Поддержка
-Еженедельный review, рефакторинг, архивация устаревшего
-
-## Для кого этот раздел
-
-- **Администраторы** — настройка и поддержка хранилища
-- **Редакторы** — создание и обновление документов
-- **AI-агенты** — автоматическая работа с документами
-
-## Связанные документы
-
-- [Раздел Management](../README.md)
-- [Knowledge-Base-Logic](../0.1.%20Knowledge-Base-Logic/README.md)
+1. Заполни [01-project-description-template.md](01-project-description-template.md) — опиши проект
+2. Прочитай [02-standards.md](02-standards.md) — как оформлять
+3. Используй [04-document-creation.md](04-document-creation.md) — как создавать
+4. Следуй [05-frontmatter-spec.md](05-frontmatter-spec.md) — метаданные
