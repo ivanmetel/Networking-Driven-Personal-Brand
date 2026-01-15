@@ -1,3 +1,27 @@
+---
+author: [Cline]
+type: guide
+status: active
+created: 2026-01-15, 11:55
+updated: 2026-01-15, 11:55
+system: "Management"
+family: F0
+scope: repository
+target_audience: [ai-agents, developers, content-creators]
+related:
+  - Repository-management/0.1. Knowledge-Base-Logic/02-document-families.md
+  - Repository-management/0.2. Repository-Processes/02-standards.md
+  - Repository-management/0.2. Repository-Processes/05-frontmatter-spec.md
+fpf_principles:
+  - strict-distinction
+  - formal-specification
+  - minimalism
+fpf_patterns:
+  - A.1      # Holonic Foundation
+  - A.7      # Strict Distinction
+  - E.10.D2  # I/D/S Discipline
+---
+
 # Инструкции для AI agent
 
 Этот документ содержит руководство для **любого AI agent** (Cline, Antigravity, Claude Code и других) по работе с хранилищем знаний в контексте SRD-метода и интеграции с First Principles Framework (FPF).
@@ -11,7 +35,7 @@
 
 При каждом запросе AI agent получает:
 1. **Системный промпт** — базовые инструкции
-2. **AI_AGENT.md** (~4.5K токенов) — этот файл с терминологией и принципами
+2. **AI_AGENT.md** (~4.5K токенов) — этот файл, с терминологией и принципами
 3. **История диалога** — предыдущие сообщения
 4. **Текущий запрос** — задача пользователя
 
@@ -80,23 +104,26 @@
 
 ### Таблица 3×3 + Метасемейство (F0)
 
-SRD организует знания через **таблицу 3×3** (9 семейств документов F1-F9) + **метасемейство F0** (управление хранилищем).
+SRD организует знания через **таблицу 3×3** (9 семейств документов F1-F9) внутри каждого ядра + **метасемейство F0** (управление хранилищем на уровне репозитория).
 
 ```
-                     Предприниматель  Инженер           Менеджер
-                     (Зачем?)         (Как устроено?)   (Как работает?)
-┌────────────────────────────────────────────────────────────────────┐
-│ Suprasystem        F1               F2                F3           │
-│ (Надсистема)       Контекст         Окружение         Взаимодействие│
-├────────────────────────────────────────────────────────────────────┤
-│ System-of-Interest F4               F5                F6           │
-│ (Целевая система)  Требования       Архитектура       Реализация   │
-├────────────────────────────────────────────────────────────────────┤
-│ Constructor        F7               F8                F9           │
-│ (Система создания) Принципы         Платформа         Команда      │
-└────────────────────────────────────────────────────────────────────┘
+                     Предприниматель     Инженер              Менеджер
+                     (Meaning)           (Architecture)       (Operations)
+                     Зачем?              Как устроено?        Как работает?
+┌────────────────────────────────────────────────────────────────────────┐
+│ Suprasystem        FX1                 FX2                  FX3           │
+│ (Надсистема)       Контекст            Окружение            Взаимодействие│
+├────────────────────────────────────────────────────────────────────────┤
+│ System-of-Interest FX4                 FX5                  FX6           │
+│ (Целевая система)  Требования          Архитектура          Реализация    │
+├────────────────────────────────────────────────────────────────────────┤
+│ Constructor        FX7                 FX8                  FX9           │
+│ (Система создания) Принципы            Платформа            Команда       │
+└────────────────────────────────────────────────────────────────────────┘
 
-+ F0 (Management) — метасемейство, управляет логикой хранилища
+где X = буква ядра (A, B, C...)
+
++ F0 (Repository Management) — метасемейство, управляет логикой хранилища
 ```
 
 **Терминология систем (FPF):**
@@ -108,76 +135,89 @@ SRD организует знания через **таблицу 3×3** (9 се
 
 ### Навигация по папкам
 
-| Система | Путь | Фокус |
-|---------|------|-------|
-| Management | `content/0.Management/` | Метасистема хранилища |
-| Suprasystem | `content/1.Suprasystem/` | Внешняя среда (надсистема) |
-| System-of-Interest | `content/2.System-of-Interest/` | Создаваемый продукт (целевая система) |
-| Constructor | `content/3.Constructor/` | Система создания |
+Каждое ядро (Kernel) организует свои документы по матрице 3×3:
+
+| Ядро | Путь | Фокус |
+|------|------|-------|
+| F0 (Repository Management) | `Repository-management/` | Метасистема хранилища |
+| F1-F9 (Внутри ядра) | `Systems-Description/{X}.{System-Name}/` | 9 семейств документов конкретной системы |
 
 ### Роли (измерения)
 
 | Роль | Подпапка | Вопрос | FPF-связь |
 |------|----------|--------|-----------|
-| **Предприниматель** | `X.1.Meaning/` | Зачем? | U.RoleAssignment, цели |
-| **Инженер** | `X.2.Architecture/` | Как устроено? | U.System, структура |
-| **Менеджер** | `X.3.Operations/` | Как работает? | U.Work, процессы |
+| **Предприниматель (Meaning)** | `XN.1.Meaning/` | Зачем? | U.RoleAssignment, цели |
+| **Инженер (Architecture)** | `XN.2.Architecture/` | Как устроено? | U.System, структура |
+| **Менеджер (Operations)** | `XN.3.Operations/` | Как работает? | U.Work, процессы |
+
+Где:
+- `X` — буква ядра (A, B, C...)
+- `N` — номер уровня (1 = Suprasystem, 2 = SoI, 3 = Constructor)
 
 ---
 
-## ОБЯЗАТЕЛЬНО: Работа с 0.Management/
+## ОБЯЗАТЕЛЬНО: Работа с Repository-management/
 
-> **КРИТИЧЕСКИ ВАЖНО ДЛЯ AI AGENT:** Создание любого документа хранилища происходит **обязательно** на основании документов из папки `content/0.Management/`, а не только по FPF.
+> **КРИТИЧЕСКИ ВАЖНО ДЛЯ AI AGENT:** Создание любого документа хранилища происходит **обязательно** на основании документов из папки `Repository-management/`, а не только по FPF.
 
-> **Для AI agent:** Когда пользователь просит создать документ, ТЫ ОБЯЗАН сначала прочитать указанные документы из 0.Management/ и только потом создавать документ.
+> **Для AI agent:** Когда пользователь просит создать документ, ТЫ ОБЯЗАН сначала прочитать указанные документы из Repository-management/ и только потом создавать документ.
 
 ### Источники истины для создания документов
 
 При создании или редактировании **любого** документа в хранилище, AI agent **обязан** сначала прочитать:
 
-| Задача | Обязательные источники из 0.Management/ |
+| Задача | Обязательные источники из Repository-management/ |
 |--------|----------------------------------------|
-| **Создание документа** | `0.1. Логика хранилища и знаний/document-families.md`, `0.2. Процессы работы с хранилищем/standards.md` |
-| **Определение места** | `0.1. Логика хранилища и знаний/document-families.md` — модель семейств F0-F9 |
-| **Оформление frontmatter** | `0.2. Процессы работы с хранилищем/standards.md`, `0.2. Процессы работы с хранилищем/frontmatter-spec.md` |
-| **Терминология** | `0.1. Логика хранилища и знаний/glossary.md` |
-| **Связи документов** | `0.1. Логика хранилища и знаний/principles.md` |
-| **Процесс создания** | `0.2. Процессы работы с хранилищем/document-creation.md` |
+| **Создание документа** | `0.1. Knowledge-Base-Logic/02-document-families.md`, `0.2. Repository-Processes/02-standards.md` |
+| **Определение места** | `0.1. Knowledge-Base-Logic/02-document-families.md` — модель семейств F1-F9 |
+| **Оформление frontmatter** | `0.2. Repository-Processes/02-standards.md`, `0.2. Repository-Processes/05-frontmatter-spec.md` |
+| **Терминология** | `0.1. Knowledge-Base-Logic/05-glossary.md` |
+| **Связи документов** | `0.1. Knowledge-Base-Logic/04-ontology.md` |
+| **Процесс создания** | `0.2. Repository-Processes/04-document-creation.md` |
 
-### Механизм работы AI agent с 0.Management/
+### Механизм работы AI agent с Repository-management/
 
 **Алгоритм перед созданием документа:**
 
 > **Для AI agent:** ЭТОТ АЛГОРИТМ ОБЯЗАТЕЛЕН ДЛЯ ВЫПОЛНЕНИЯ. Ты должен следовать ему при каждом создании документа.
 
-1. **Прочитай** `0.1. Логика хранилища и знаний/document-families.md` — определи семейство (F0-F9)
-2. **Прочитай** `0.2. Процессы работы с хранилищем/standards.md` — получи стандарты оформления
-3. **Прочитай** `0.1. Логика хранилища и знаний/glossary.md` — используй правильную терминологию
+1. **Прочитай** `Repository-management/0.1. Knowledge-Base-Logic/02-document-families.md` — определи семейство (F1-F9)
+2. **Прочитай** `Repository-management/0.2. Repository-Processes/02-standards.md` — получи стандарты оформления
+3. **Прочитай** `Repository-management/0.1. Knowledge-Base-Logic/05-glossary.md` — используй правильную терминологию
 4. **Создай** документ с правильным frontmatter и в правильной папке
-5. **Проверь** по `0.2. Процессы работы с хранилищем/frontmatter-spec.md`
+5. **Проверь** по `Repository-management/0.2. Repository-Processes/05-frontmatter-spec.md`
 
-### Структура 0.Management/ (F0)
+### Структура Repository-management/ (F0)
 
-> **Важно:** F0 (Management) не делится по ролям Предприниматель/Инженер/Менеджер, а организован по функциональным областям.
+> **Важно:** F0 (Repository Management) не делится по ролям Предприниматель/Инженер/Менеджер, а организован по функциональным областям.
 
 ```
-content/0.Management/
-├── 0.1. Логика хранилища и знаний/    # Онтология
-│   ├── document-families.md           # Модель семейств F0-F9
-│   ├── principles.md                  # Принципы организации
-│   ├── glossary.md                    # Глоссарий терминов
-│   └── taxonomy.md                    # Классификация
-├── 0.2. Процессы работы с хранилищем/ # Операции и стандарты
-│   ├── structure.md                   # Структура папок
-│   ├── standards.md                   # Стандарты оформления
-│   ├── roles.md                       # Роли и ответственность
-│   ├── document-creation.md           # Создание документов
-│   ├── workflows.md                   # Рабочие процессы
-│   └── frontmatter-spec.md            # Спецификация frontmatter
-├── 0.3. Планы и совещания/            # Координация
-├── 0.4. Автоматические отчёты ИИ/     # Автоотчёты AI
-├── 0.9. Входящие/                     # Входящие идеи
-└── 0.99. Архив/                       # Архив
+Repository-management/
+├── 0.1. Knowledge-Base-Logic/         # Онтология
+│   ├── 00-readme.md                   # Обзор
+│   ├── 01-kernels-model.md            # Модель ядер
+│   ├── 02-document-families.md        # Модель семейств F1-F9
+│   ├── 03-our-systems-map.md          # Карта систем
+│   ├── 04-ontology.md                 # Общая онтология
+│   ├── 05-glossary.md                 # Глоссарий терминов
+│   └── 06-taxonomy.md                 # Классификация
+├── 0.2. Repository-Processes/         # Операции и стандарты
+│   ├── 01-project-description-template.md
+│   ├── 02-standards.md                # Стандарты оформления
+│   ├── 03-structure.md                # Структура папок
+│   ├── 04-document-creation.md        # Создание документов
+│   ├── 05-frontmatter-spec.md         # Спецификация frontmatter
+│   ├── 06-workflows.md                # Рабочие процессы
+│   └── 07-roles.md                    # Роли и ответственность
+├── 0.3. Kernels-Bridge/               # Связи между ядрами
+│   ├── 01-value-chain.md
+│   ├── 02-kernels-relations.md
+│   └── 03-systems-hierarchy.md
+├── 0.4. Plans-and-Meetings/           # Координация
+├── 0.5. AI-Reports/                   # Автоотчёты AI
+├── 0.6. FPF-Integration/              # Интеграция с FPF
+├── 0.9. Inbox/                        # Входящие идеи
+└── 0.99. Archive/                     # Архив
 ```
 
 ### Команда для автозагрузки контекста
@@ -186,18 +226,18 @@ content/0.Management/
 
 ```
 # Минимальный контекст (обязательно)
-Read: content/0.Management/0.1. Логика хранилища и знаний/document-families.md
-Read: content/0.Management/0.2. Процессы работы с хранилищем/standards.md
+Read: Repository-management/0.1. Knowledge-Base-Logic/02-document-families.md
+Read: Repository-management/0.2. Repository-Processes/02-standards.md
 
 # Расширенный контекст (по необходимости)
-Read: content/0.Management/0.1. Логика хранилища и знаний/glossary.md
-Read: content/0.Management/0.2. Процессы работы с хранилищем/document-creation.md
+Read: Repository-management/0.1. Knowledge-Base-Logic/05-glossary.md
+Read: Repository-management/0.2. Repository-Processes/04-document-creation.md
 ```
 
 ---
 
 ## Работа с документами
-
+При создании новых документов строго использовать:
 ### Обязательные метаданные (YAML frontmatter)
 
 ```yaml
@@ -251,13 +291,19 @@ fpf_patterns:                    # Ссылки на паттерны FPF
 ### Размещение документа
 
 ```
-content/{N}.{System}/{N}.{M}.{Role}/document-name.md
+Systems-Description/{X}.{System-Name}/{XN}.{System-Name}/{XN.{Role}/document-name.md
 ```
 
+Где:
+- `X` — буква ядра (A, B, C...)
+- `System-Name` — имя конкретной системы
+- `N` — номер уровня системы (1, 2, 3)
+- `Role` — Meaning, Architecture, или Operations
+
 Примеры:
-- `content/0.Management/0.1. Логика хранилища и знаний/principles.md`
-- `content/2.System-of-Interest/2.2.Architecture/api-schema.md`
-- `content/3.Constructor/3.3.Operations/ci-cd-pipeline.md`
+- `Systems-Description/A. SoI - Branding Mastery/A2.System-of-Interest-Branding-Mastery/A2.1.Meaning/requirements.md`
+- `Systems-Description/B. Engineered system/B2.System-of-Interest-NDPB-Environment/B2.2.Architecture/api-schema.md`
+- `Systems-Description/B. Engineered system/B3.Constructor-CooperActive-Systems/B3.3.Operations/ci-cd-pipeline.md`
 
 ---
 
@@ -374,13 +420,18 @@ content/{N}.{System}/{N}.{M}.{Role}/document-name.md
 
 ### Главные документы
 - [README.md](README.md) — описание SRD-метода
-- [Модель семейств документов](content/0.Management/0.1.%20Логика%20хранилища%20и%20знаний/document-families.md) — F0-F9
+- [Модель ядер](Repository-management/0.1.%20Knowledge-Base-Logic/01-kernels-model.md) — что такое ядра
+- [Модель семейств документов](Repository-management/0.1.%20Knowledge-Base-Logic/02-document-families.md) — F1-F9
 
-### 0.Management/ (F0)
-- [Принципы](content/0.Management/0.1.%20Логика%20хранилища%20и%20знаний/principles.md)
-- [Глоссарий](content/0.Management/0.1.%20Логика%20хранилища%20и%20знаний/glossary.md)
-- [Стандарты](content/0.Management/0.2.%20Процессы%20работы%20с%20хранилищем/standards.md)
-- [Создание документов](content/0.Management/0.2.%20Процессы%20работы%20с%20хранилищем/document-creation.md)
+### Repository-management/ (F0)
+- [Обзор](Repository-management/0.1.%20Knowledge-Base-Logic/00-readme.md)
+- [Модель ядер](Repository-management/0.1.%20Knowledge-Base-Logic/01-kernels-model.md)
+- [Модель семейств](Repository-management/0.1.%20Knowledge-Base-Logic/02-document-families.md)
+- [Онтология](Repository-management/0.1.%20Knowledge-Base-Logic/04-ontology.md)
+- [Глоссарий](Repository-management/0.1.%20Knowledge-Base-Logic/05-glossary.md)
+- [Стандарты](Repository-management/0.2.%20Repository-Processes/02-standards.md)
+- [Создание документов](Repository-management/0.2.%20Repository-Processes/04-document-creation.md)
+- [Структура папок](Repository-management/0.2.%20Repository-Processes/03-structure.md)
 
 ### FPF
 - [.fpf/INDEX.md](.fpf/INDEX.md) — локальные принципы проекта
