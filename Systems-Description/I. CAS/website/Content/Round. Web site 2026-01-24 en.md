@@ -210,12 +210,12 @@ PropTech entrepreneur, systems thinking methodology instructor, author of progra
 	- A: All methodological materials are available to you for free upon registration. You can draw a conclusion yourself or ask us your questions directly: ..@..
 # CTA
 ## Caption
-Download the negotiation preparation cycle checklist
+Download the negotiation preparation framework
 ## Email capture form
 - Email
 ## Button
 - Download
-transition: checklist sent
+transition: framework sent
 ## Button
 - Become Round-Ready
 transition: payment page
