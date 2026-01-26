@@ -25,7 +25,7 @@ updated: 2026-01-23, 14:24:27
 - Are You Ready?
 ### Details
 - 4 Weeks of the program
-- 1 General Modeling Platform
+- 1 Meeting Generation Platform
 - ∞ Impactful meetings
 ## Slide 2. Static background
 ### Headline
@@ -36,7 +36,7 @@ updated: 2026-01-23, 14:24:27
 - Are You Ready?
 ### Details
 - 4 Weeks of the program
-- 1 General Modeling Platform
+- 1 Meeting Generation Platform
 - ∞ Impactful meetings
 # Problem <!-- Технический текст -->
 //Audience pain points
@@ -98,88 +98,80 @@ Predictability is key
 - Funded pitches
 
 # Product //Offer details <!-- Технический текст -->
-//Infographic
-**Round Pipeline**
-4 weeks of system modeling for negotiations
+**Round-Ready Pipeline**
+4 weeks of systems modeling for negotiations
 
-Each week is a step toward readiness for your next round. You get concrete skills and artifacts that you use immediately
+Each week moves you closer to *round readiness*.
+You gain concrete skills and produce project delivarables you start using immediately.
 
-*Week 1. Modeling principles*
-We prepare to enter your next meeting with a ready model of the situation. You see this meeting not as a stand-alone negotiation unit, but as an embedded part of a sequence.
+*Week 1. Modeling Principles*
+//Infographic — "ABC" — как основы
+We prepare you to enter your next meeting with a ready model of the situation. You stop treating the meeting as a standalone negotiation and start seeing it as part of a broader sequence.
 
 What you get after Week 1
-- Basics of systems-engineering modeling
-- How to model your next meeting
-- How to understand the interlocutor and their context
-- Language of abstractions for negotiations
-- Reduced cognitive load
+- Foundations of systems-engineering modeling
+- A clear method for modeling your next meeting
+- Tools to understand the interlocutor and their context
+- A shared language of abstractions for negotiations
+- Reduced cognitive load during preparation
 
 *Week 2. Counter-party Modeling*
-We build the foundation of prospective meetings, where the interlocutor's model, their context and concerns are well defined. You understand the possible fit and know right words.
+//Infographic — Что-нибудь с конструктом
+We build the foundation for prospective meetings by modeling the interlocutor: their context, constraints, concerns, and decision logic. You stop guessing intentions — and start reasoning about fit.
 
 What you get after Week 2
-- How to understand the interlocutor's context
-- How to model their concerns and decision-making logic
-- How to see the fit between your position and their context
-- How to find the right words and images that resonate
+- Applied systems-engineering concepts for real environments
+- Ability to frame interlocutors' context and boundaries
+- Frameworks for modeling concerns and decision-making logic
+- Clear criteria for discovering (or rejecting) fit between positions
 
 *Week 3. Self Modeling*
-We develop your own set of frames to both directly and indirectly evince your skills and intentions. This expands the strategy, supplementing self-directed outbound efforts with inbound signals.
-
---- остановился здесь ---
-
+//Infographic — Оставляем человечка
+We develop a structured representation of your position — one that can be expressed directly in conversation and indirectly through signals. This expands your strategy beyond outbound efforts and enables inbound traction.
 
 What you get after Week 3
-- How to model your position in the meeting context
-- How to prepare your position in their context
-- How to see connections between your words and their concerns
-- How to translate your ideas clearly and persuasively
+- Frameworks for modeling your preferences and constraints
+- A structured foundation for your professional presence
+- An adjustable, medium-agnostic self-description
+- Practical ways to bridge the gap between you and the interlocutor
 
-✅ Model of your position
-   You understand how your position fits into their context. You see not just "your position," but the whole system of connections between you and their context.
+*Week 4. Model Updating*
+//Infographic — Оставляем цикл
+You assemble your personal opportunity generator — the *Round Platform*. A working system that supports preparation, execution, and learning across rounds. You enter meetings with a model — and leave with clarity, not unanswered questions.
 
-✅ Skill to prepare your position
-   You know how to prepare your position in their context. You see which words and images resonate with their concerns.
-
-✅ Easy translation of ideas
-   Your position model gives you a foundation for explanations. You easily translate your ideas — words and images emerge naturally.
-
-✅ Confidence in your words
-   You know what you're saying because you rely on the model. You don't improvise blindly — you have a foundation for every word.
-
-Week 3 Result:
-You enter the meeting with a model of your position in their context. You easily translate your ideas — words and images emerge naturally. You're confident in your words because you rely on the model.
-
-- Optimize preparation time
-- Update the interlocutor model
-- Update our profile
-
-
-
-
-*Creating an adaptive document pipeline*
-- Demonstrate our competence
-- Support it with AI-assistants
-- Maintain the regularity of transmitted signals
+What you get after Week 4:
+- Project and opportunity prioritization policies
+- A meetings-generation pipeline
+- A project deliverables development pipeline
+- AI-agents orchestration principles
+- An operational Round Platform, ready for use
 
 ## Methodology <!-- Технический текст -->
 Words matter, yet they don't. Concepts close the deal. Systems modeling is the language of abstractions helping to overcome barriers.
-## Program
-- Week 2. Counter-party modeling
-- Week 3. Self modeling
-- Week 4. Model updating
 
 ## Pricing
-- Free
-	- Materials
-- Group
-	- Materials
-	- 4 group meetings
-	- Modeling machine setup
-- Personal
-	- Materials
-	- 4 individual consultations (1:1)
-	- Modeling machine setup
+Self-Paced
+- Core method materials
+Button: Get for Free
+
+Personal
+- Core method materials
+- 4 individual consultations (1:1)
+- Methodological guidance
+- Round Platform setup
+- Online certificate
+- LinkedIn account guidance
+Button: Get for $790
+Label: Most Popular
+
+Group
+- Core method materials
+- 4 facilitated sessions (up to 6 people)
+- Methodological guidance
+- Round Platform setup
+- Online certificate
+Button: Get for $440
+
 # Provider
 //About the company
 ## CooperActive Systems
