@@ -99,10 +99,10 @@ Predictability is key
 
 # Product //Offer details <!-- Технический текст -->
 **Round-Ready Pipeline**
-4 weeks of systems modeling for negotiations
+4 weeks of system modeling for negotiations
 
 Each week moves you closer to *round readiness*.
-You gain concrete skills and produce project delivarables you start using immediately.
+You gain concrete skills and produce project deliverables you start using immediately.
 
 *Week 1. Modeling Principles*
 //Infographic — "ABC" — как основы
@@ -215,7 +215,7 @@ Download the negotiation preparation framework
 - Email
 ## Button
 - Download
-transition: framework sent
+transition: The framework sent
 ## Button
 - Become Round-Ready
 transition: payment page
