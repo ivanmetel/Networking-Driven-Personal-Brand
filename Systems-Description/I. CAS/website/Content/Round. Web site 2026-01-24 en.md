@@ -2,7 +2,7 @@
 title: ""
 status: draft
 created: 2026-01-16, 13:14:27
-updated: 2026-01-23, 14:24:27
+updated: 2026-01-28, 11:53:27
 ---
 # Header <!-- Технический текст -->
 //Navigation
@@ -88,6 +88,8 @@ In communications, there is no ideal phrasing that will lead to success. Just as
 
 The presence of **preliminary context** and a **multi-level situation model** reduces cognitive load. System modeling allows you to hold the integrity of what is happening in your attention and compare it with your preferences.
 
+To build these models, we utilize professional networks like LinkedIn. We treat them not as social feeds, but as structured data sources and transmission channels. By analyzing your interlocutor's digital footprint, you reduce uncertainty. By structuring your own, you transmit consistent signals.
+
 A model provides a basis for explanations. Having mastered the rules of modeling, you stop improvising blindly. A sense of control emerges — and along with it, calmness.
 No matter what happens.
 
@@ -96,6 +98,8 @@ Predictability is key
 - Winning interviews
 - Closed deals
 - Funded pitches
+
+*In our program, we work with the professional social network LinkedIn. But the methodology is adaptable to other similar platforms as well.
 
 # Product //Offer details <!-- Технический текст -->
 **Round-Ready Pipeline**
@@ -132,18 +136,19 @@ We develop a structured representation of your position — one that can be expr
 What you get after Week 3
 - Frameworks for modeling your preferences and constraints
 - A structured foundation for your professional presence
+- A LinkedIn profile architecture that reflects your system model
 - An adjustable, medium-agnostic self-description
 - Practical ways to bridge the gap between you and the interlocutor
 
 *Week 4. Model Updating*
 //Infographic — Оставляем цикл
-You assemble your personal opportunity generator — the *Round Platform*. A working system that supports preparation, execution, and learning across rounds. You enter meetings with a model — and leave with clarity, not unanswered questions.
+You assemble your personal opportunity generator — the *Round Platform*. A working system that supports preparation, execution, and learning across rounds. It connects to your activity on professional networks to track signal consistency. You enter meetings with a model — and leave with clarity, not unanswered questions.
 
 What you get after Week 4:
 - Project and opportunity prioritization policies
-- A meetings-generation pipeline
+- A content pipeline for consistent LinkedIn activity
 - A project deliverables development pipeline
-- AI-agents orchestration principles
+- AI-agents orchestration for LinkedIn interaction
 - An operational Round Platform, ready for use
 
 ## Methodology <!-- Технический текст -->
@@ -156,19 +161,24 @@ Button: Get for Free
 
 Personal
 - Core method materials
-- 4 individual consultations (1:1)
-- Methodological guidance
+- 28 days of personal support
+- 4 x 60min individual consultations (1:1)
+- Meeting recordings library
+- Methodological guidance and feedback
 - Round Platform setup
 - Online certificate
-- LinkedIn account guidance
+- Deep-dive LinkedIn profile audit & strategy
 Button: Get for $790
 Label: Most Popular
 
 Group
 - Core method materials
-- 4 facilitated sessions (up to 6 people)
+- 28 days of group support
+- 4 x 90min facilitated sessions (up to 6 people)
+- Meeting recordings library
 - Methodological guidance
 - Round Platform setup
+- Best practices for LinkedIn architecture
 - Online certificate
 Button: Get for $440
 
@@ -202,8 +212,8 @@ PropTech entrepreneur, systems thinking methodology instructor, author of progra
 	- A: No. Unlike negotiation techniques, where attention is paid to form (how to speak), we work with content (what to speak).
 - **Q: What will I get as a result of the program?**
 	- A: You will get two explicit changes: the skill to create system descriptions on which decisions are based, and a prototype of an IT platform for strategy realization and negotiation preparation.
-- **Q: Is LinkedIn activity mandatory for me?**
-	- A: Social visibility is one of the conditions for entering negotiations, and LinkedIn is one possible tool. Using its example, we show how this activity affects negotiations.
+- **Q: Why LinkedIn?**
+	- A: LinkedIn provides a rare combination of public intent signals, career history, language patterns, and interaction traces. For negotiation modeling, this makes it one of the richest real-world datasets available to an individual.
 - **Q: Upon completion of the program, will I be able to succeed in any negotiation?**
 	- A: We do not give such guarantees, but together with you we will create a personal "opportunity generator," a tool that will help you achieve your goals both technically and mentally.
 - **Q: How do I understand if this negotiation preparation format suits me?**
