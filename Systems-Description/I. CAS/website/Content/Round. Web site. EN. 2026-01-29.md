@@ -127,7 +127,7 @@ On meetings, interested parties compare their concerns regarding the future stat
 We consider a meeting not as a beginning, but as an ongoing process. Taking in account passed meetings helps us to model future meetings.
 This program get you ready for your next meeting.
 
-Мы даем метод, вы выбираете, какую систему строить.
+We provide the method, you choose which system to build.
 
 Ivan Metelkin
 PropTech entrepreneur, systems thinking methodology instructor, author of programs of Systems–Roles Approach to Negotiation and Role-Based Approach to Work and Personal Projects.
