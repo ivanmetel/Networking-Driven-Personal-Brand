@@ -55,6 +55,7 @@ No matter what happens.
 # 4-Week Meeting Engineering Pipeline
 Each week builds a specific layer of your personal meeting system
 (недели одна за одной)
+
 **Week 1. Modeling Principles**
 - A clear method to model the "Big Picture" of your next meeting
 - Tools to understand the interlocutor and their context
@@ -92,7 +93,9 @@ Automation to collect, structure, and reuse context across meetings
 _Self-Paced_
 - All core materials
 - Implement at your own speed
+
 Button: Get for Free
+
 _Personal_
 - All core materials
 - 28 days of personal support
@@ -102,8 +105,11 @@ _Personal_
 - Tailored automatization guidance
 - Deep-dive LinkedIn profile audit & strategy
 - Online certificate
+
 Button: Get for $790
+
 Label: Most Popular
+
 _Group_
 - All core materials
 - 28 days of group support
@@ -113,6 +119,7 @@ _Group_
 - Personal meeting system setup
 - Best practices for LinkedIn architecture
 - Online certificate
+
 Button: Get for $440
 
 # CooperActive Systems
