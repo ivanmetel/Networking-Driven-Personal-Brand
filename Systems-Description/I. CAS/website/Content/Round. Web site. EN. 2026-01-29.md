@@ -29,7 +29,7 @@ A practical 4-week program that helps you prepare for meetings faster, understan
 Using LinkedIn, Claude-like AI's and tailored automated workflows
 
 # Why this exists
-Сложные системы начинаются с модели и не делаются в одиночку. Мы даем инструмент моделирования встреч — чтобы вы могли определить, какую систему хотите создать, и договориться о её создании.
+Complex systems start with a model and aren't built alone. We provide a meeting modeling tool — so you can define the system you want to create and negotiate its creation.
 
 - Interviews
 - Negotiations 
